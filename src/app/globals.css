@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 
+*{
+    background-color: rgb(18, 24, 41);
+    color: white;
+} */
+
+.main-container{
+    margin: 0px 120px;
+}
+
+@media screen and (max-width: 1000px) {
+    .main-container{
+        margin: 0px;
+    }
+}
+
+.ql-editor{
+}
+
+.ql-container{
+    min-height: 400px;
+}
